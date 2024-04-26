@@ -1,0 +1,11 @@
+USE DB_MYRH
+GO
+
+SELECT * FROM TB_AREAS
+-- 1. Removendo a primeira área da tabela TB_AREAS
+DELETE FROM TB_AREAS WHERE ID = 1
+
+-- 2. Removendo uma inscricao
+SELECT * FROM TB_INSCRICOES
+
+DELETE FROM TB_INSCRICOES WHERE ID=5

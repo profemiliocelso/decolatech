@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\views\\conceitos\\mostrarlista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\views\\conceitos\\mostrarlista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\views\\conceitos\\mostrarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\views\\conceitos\\mostrarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\views\\conceitos\\mostrarconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\views\\conceitos\\mostrarconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\controllers\\conceitoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\controllers\\conceitoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\models\\informacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\models\\informacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|c:\\documentos\\projetos\\decolatech\\06_conceitosaspnetcoremvc\\conceitos.aspnetcoremvc\\conceitos.aspnetcoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A63850-5BD5-4757-8280-DE43D1FFA432}|Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC.csproj|solutionrelative:conceitos.aspnetcoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T18:21:46.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T18:15:10.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T18:12:54.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MostrarLista.cshtml",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarLista.cshtml",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarLista.cshtml",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarLista.cshtml",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarLista.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T17:03:36.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Informacoes.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Models\\Informacoes.cs",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Models\\Informacoes.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Models\\Informacoes.cs",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Models\\Informacoes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T16:54:02.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MostrarProduto.cshtml",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarProduto.cshtml",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarProduto.cshtml",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarProduto.cshtml",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarProduto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T16:21:11.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MostrarConteudo.cshtml",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarConteudo.cshtml",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarConteudo.cshtml",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarConteudo.cshtml",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Views\\Conceitos\\MostrarConteudo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T14:25:13.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Program.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Program.cs",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T18:41:28.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConceitosController.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Controllers\\ConceitosController.cs",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Controllers\\ConceitosController.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Controllers\\ConceitosController.cs",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Controllers\\ConceitosController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA+wCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T18:19:53.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Conceitos.AspNetCoreMVC\\Models\\Produto.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\06_ConceitosAspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Conceitos.AspNetCoreMVC\\Models\\Produto.cs",
+              "RelativeToolTip": "Conceitos.AspNetCoreMVC\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:49:53.819Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\services\\areasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\services\\areasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\dal\\genericdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\dal\\genericdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\models\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\models\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\models\\startup\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\models\\startup\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\models\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\models\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\models\\contexts\\myrhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\models\\contexts\\myrhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AreasService.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Services\\AreasService.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Services\\AreasService.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Services\\AreasService.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Services\\AreasService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T18:46:54.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericDao.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\DAL\\GenericDao.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\DAL\\GenericDao.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\DAL\\GenericDao.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\DAL\\GenericDao.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T18:19:37.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Program.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Program.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T17:23:08.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Startup\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Models\\Startup\\DbInitializer.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Startup\\DbInitializer.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Models\\Startup\\DbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T17:20:05.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyRhContext.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Contexts\\MyRhContext.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Models\\Contexts\\MyRhContext.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Contexts\\MyRhContext.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Models\\Contexts\\MyRhContext.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T16:44:00.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cargo.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Cargo.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Models\\Entities\\Cargo.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Cargo.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Models\\Entities\\Cargo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T16:30:11.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T16:29:49.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\appsettings.json",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\appsettings.json",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-02T16:11:25.941Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -17,5 +17,25 @@ namespace ProjetoMyRh.AppWeb.Services
         {
             return AreasDao.Listar();
         }
+
+        public Area? Buscar(int id)
+        {
+            return AreasDao.Buscar(id);
+        }
+
+        public void Incluir(Area area)
+        {
+            AreasDao.Adicionar(area);
+        }
+
+        public void Alterar(Area area)
+        {
+            AreasDao.Alterar(area);
+        }
+
+        public void Remover(Area area)
+        {
+            AreasDao.Remover(area);
+        }
     }
 }

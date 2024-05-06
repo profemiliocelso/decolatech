@@ -1,4 +1,5 @@
-﻿using ProjetoMyRh.AppWeb.Models.Contexts;
+﻿using Microsoft.EntityFrameworkCore;
+using ProjetoMyRh.AppWeb.Models.Contexts;
 
 namespace ProjetoMyRh.AppWeb.DAL
 {
@@ -10,16 +11,39 @@ namespace ProjetoMyRh.AppWeb.DAL
         {
             this.Context = context;
         }
-        // Adicionar entidades
-        public void Adicionar(T item)
-        {
-            Context.Add<T>(item);
-            Context.SaveChanges();
-        }
+
         // Listando todas as entidades
         public IEnumerable<T> Listar()
         {
             return Context.Set<T>().ToList();
+        }
+
+        // Buscando uma entidade pelo Id
+        public T? Buscar(int id)
+        {
+            return Context.Set<T>().Find(id);
+        }
+
+        // Adicionar entidades
+        public void Adicionar(T item)
+        {
+            //Context.Add<T>(item);
+            Context.Entry<T>(item).State = EntityState.Added;
+            Context.SaveChanges();
+        }
+
+        // Alterar Entidades
+        public void Alterar(T item)
+        {
+            Context.Entry<T>(item).State = EntityState.Modified;
+            Context.SaveChanges();
+        }
+
+        // Remover Entidades
+        public void Remover(T item)
+        {
+            Context.Entry<T>(item).State = EntityState.Deleted;
+            Context.SaveChanges();
         }
     }
 }

@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetoMyRh.AppWeb.Models.Contexts;
 using ProjetoMyRh.AppWeb.Models.Startup;
+using ProjetoMyRh.AppWeb.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,9 @@ ConfigurationManager config = builder.Configuration;
 // Add services to the container.
 builder.Services.AddDbContext<MyRhContext>(options => 
     options.UseSqlServer(config.GetConnectionString("MyRhConnection")));
+
+// Habilitando o serviço AreasService para injeção de dependência
+builder.Services.AddScoped<AreasService>();
 
 builder.Services.AddControllersWithViews();
 

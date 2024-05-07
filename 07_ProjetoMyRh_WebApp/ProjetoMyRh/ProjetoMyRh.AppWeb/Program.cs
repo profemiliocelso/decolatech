@@ -11,8 +11,9 @@ ConfigurationManager config = builder.Configuration;
 builder.Services.AddDbContext<MyRhContext>(options => 
     options.UseSqlServer(config.GetConnectionString("MyRhConnection")));
 
-// Habilitando o serviço AreasService para injeção de dependência
+// Habilitando os serviços AreasService e CargosService para injeção de dependência
 builder.Services.AddScoped<AreasService>();
+builder.Services.AddScoped<CargosService>();
 
 builder.Services.AddControllersWithViews();
 

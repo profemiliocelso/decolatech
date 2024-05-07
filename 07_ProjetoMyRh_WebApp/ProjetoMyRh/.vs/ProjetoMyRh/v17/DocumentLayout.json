@@ -3,48 +3,36 @@
   "WorkspaceRootPath": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\controllers\\areasatuacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\controllers\\areasatuacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\services\\cargosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\services\\cargosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\views\\shared\\_erro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\views\\shared\\_erro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\views\\areasatuacao\\listarareas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\views\\areasatuacao\\listarareas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\views\\cargos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\views\\cargos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\views\\areasatuacao\\alterararea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\views\\areasatuacao\\alterararea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\views\\cargos\\adicionarcargo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\views\\cargos\\adicionarcargo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\views\\areasatuacao\\incluirarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\views\\areasatuacao\\incluirarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\dal\\genericdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\dal\\genericdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\services\\areasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\services\\areasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\models\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\models\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\models\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\models\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\models\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\models\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\models\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\models\\entities\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,148 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Erro.cshtml",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Shared\\_Erro.cshtml",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\Shared\\_Erro.cshtml",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Shared\\_Erro.cshtml",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\Shared\\_Erro.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "DocumentIndex": 3,
+              "Title": "AdicionarCargo.cshtml",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Cargos\\AdicionarCargo.cshtml",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\Cargos\\AdicionarCargo.cshtml",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Cargos\\AdicionarCargo.cshtml",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\Cargos\\AdicionarCargo.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T18:27:52.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GenericDao.cs",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\DAL\\GenericDao.cs",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\DAL\\GenericDao.cs",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\DAL\\GenericDao.cs",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\DAL\\GenericDao.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAYwBQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T16:41:11.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Program.cs",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Program.cs",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Program.cs",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T16:31:18.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IncluirArea.cshtml",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\IncluirArea.cshtml",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\IncluirArea.cshtml",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\IncluirArea.cshtml",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\IncluirArea.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T13:21:02.157Z",
+              "WhenOpened": "2024-05-07T16:49:37.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ListarAreas.cshtml",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\ListarAreas.cshtml",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\ListarAreas.cshtml",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\ListarAreas.cshtml",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\ListarAreas.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Cargos\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\Cargos\\Index.cshtml",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Cargos\\Index.cshtml",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\Cargos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T13:27:52.71Z",
+              "WhenOpened": "2024-05-07T14:58:50.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AreasAtuacaoController.cs",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Controllers\\AreasAtuacaoController.cs",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Controllers\\AreasAtuacaoController.cs",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Controllers\\AreasAtuacaoController.cs",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Controllers\\AreasAtuacaoController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAxwDkAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:07:21.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AlterarArea.cshtml",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\AlterarArea.cshtml",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\AlterarArea.cshtml",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\AlterarArea.cshtml",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\AreasAtuacao\\AlterarArea.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T17:17:32.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AreasService.cs",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Services\\AreasService.cs",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Services\\AreasService.cs",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Services\\AreasService.cs",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Services\\AreasService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T18:46:54.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Area.cs",
-              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
-              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
-              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
-              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T16:29:49.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBIAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T13:52:45.202Z"
+              "WhenOpened": "2024-05-07T14:52:59.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Program.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Program.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:36:40.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CargosController.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Controllers\\CargosController.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Controllers\\CargosController.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Controllers\\CargosController.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Controllers\\CargosController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAYwDsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:30:16.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Cargo.cs",
               "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Cargo.cs",
               "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Models\\Entities\\Cargo.cs",
               "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Cargo.cs",
               "RelativeToolTip": "ProjetoMyRh.AppWeb\\Models\\Entities\\Cargo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAzwBQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T16:30:11.012Z"
+              "WhenOpened": "2024-05-07T14:21:49.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Models\\Entities\\Area.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:21:07.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CargosService.cs",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Services\\CargosService.cs",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Services\\CargosService.cs",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Services\\CargosService.cs",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\Services\\CargosService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:02:25.708Z",
+              "EditorCaption": ""
             }
           ]
         }

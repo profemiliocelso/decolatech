@@ -66,7 +66,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
                 if(area == null)
                 {
                     throw new 
-                        NullReferenceException($"Nenhum objeto com este id : {id}");
+                        ArgumentException($"Nenhum objeto com este id : {id}");
                 }
                 return View(area);
             }
@@ -92,6 +92,45 @@ namespace ProjetoMyRh.AppWeb.Controllers
             catch (Exception)
             {
                 throw;
+            }
+        }
+
+        // Action para excluir uma área
+        [HttpGet]
+        public IActionResult RemoverArea(int id)
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    throw new
+                        ArgumentException($"O valor informado na URL ({id}) é inválido");
+                }
+                Area? area = areasService.Buscar(id);
+                if (area == null)
+                {
+                    throw new
+                        ArgumentException($"Nenhum objeto com este id : {id}");
+                }
+                return View(area);
+            }
+            catch (Exception e)
+            {
+                return View("_Erro", e);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult RemoverArea(Area area)
+        {
+            try
+            {
+                areasService.Remover(area);
+                return RedirectToAction("ListarAreas");
+            }
+            catch (Exception e)
+            {
+                return View("_Erro", e);
             }
         }
     }

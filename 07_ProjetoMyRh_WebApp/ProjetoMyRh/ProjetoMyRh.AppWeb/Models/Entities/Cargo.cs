@@ -19,7 +19,7 @@ namespace ProjetoMyRh.AppWeb.Models.Entities
 
         [DisplayName("Tipo de Salário")]
         [Range(1, 2, ErrorMessage = "O tipo de Salário deve ser MENSAL ou POR HORA")]
-        public int TipoSalario { get; set; }
+        public System.Int16 TipoSalario { get; set; }
         public Area? AreaAtuacao { get; set; }
 
     }

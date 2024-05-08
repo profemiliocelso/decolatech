@@ -54,10 +54,20 @@ namespace ProjetoMyRh.AppWeb.Controllers
         }
 
         [HttpGet]
-        public IActionResult ListarCargos(int id)
+        public IActionResult ListarCargos(int idArea)
         {
             // o parametro id se refere ao id da área
-            return View();
+            try
+            {
+                ViewBag.ListaDeAreas = new SelectList(areasService.Listar(), "Id", "Descricao");
+
+                return View(cargosService.ListarCargos(idArea));
+            }
+            catch (Exception e)
+            {
+                return View("_Erro", e);
+            }
+            
         }
     }
 }

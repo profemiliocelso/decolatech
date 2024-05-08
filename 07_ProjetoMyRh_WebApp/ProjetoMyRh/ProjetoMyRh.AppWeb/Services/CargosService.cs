@@ -20,7 +20,13 @@ namespace ProjetoMyRh.AppWeb.Services
 
         public IEnumerable<Cargo> ListarCargos(int idArea)
         {
-            return CargosDao.Listar().Where(c => c.AreaId == idArea).ToList();
+            if(idArea > 0)
+            {
+                return CargosDao.Listar()
+                    .Where(c => c.AreaId == idArea)
+                    .ToList();
+            }
+            return CargosDao.Listar();
         }
     }
 }

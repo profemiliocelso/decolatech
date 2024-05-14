@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ProjetoMyRh.AppWeb.Models.Common;
 using ProjetoMyRh.AppWeb.Models.Contexts;
 using ProjetoMyRh.AppWeb.Models.Startup;
 using ProjetoMyRh.AppWeb.Services;
@@ -27,6 +28,13 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireUppercase = false;
 });
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Autenticacao/Login";
+    options.LogoutPath = "/Autenticacao/Logout";
+    options.AccessDeniedPath = "/Autenticacao/AccessDenied";
+});
+
 // Habilitando os serviços AreasService e CargosService para injeção de dependência
 builder.Services.AddScoped<AreasService>();
 builder.Services.AddScoped<CargosService>();
@@ -41,6 +49,7 @@ var context = provider.GetRequiredService<MyRhContext>();
 
 // Sincronizando o contexto com o banco de dados
 DbInitializer.Initialize(context);
+Utils.CreateRoles(provider).Wait();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

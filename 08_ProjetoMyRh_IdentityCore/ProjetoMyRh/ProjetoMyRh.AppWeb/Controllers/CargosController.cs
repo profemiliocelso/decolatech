@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ProjetoMyRh.AppWeb.Models.Entities;
 using ProjetoMyRh.AppWeb.Services;
@@ -24,6 +25,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult AdicionarCargo()
         {
             ViewBag.ListaDeAreas = new SelectList(areasService.Listar(), "Id", "Descricao");

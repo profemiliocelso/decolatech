@@ -1,5 +1,7 @@
 ﻿using ProjetoMyRh.AppWeb.DAL;
+using ProjetoMyRh.AppWeb.Models.Common;
 using ProjetoMyRh.AppWeb.Models.Contexts;
+using ProjetoMyRh.AppWeb.Models.DTO;
 using ProjetoMyRh.AppWeb.Models.Entities;
 
 namespace ProjetoMyRh.AppWeb.Services
@@ -36,6 +38,20 @@ namespace ProjetoMyRh.AppWeb.Services
         public void Remover(Area area)
         {
             AreasDao.Remover(area);
+        }
+
+        public IEnumerable<AreaDTO> ListarAreasDTO()
+        {
+            List<AreaDTO> areas = new List<AreaDTO>();
+            foreach (var item in AreasDao.Listar())
+            {
+                areas.Add(new AreaDTO
+                {
+                    Id = item.Id,
+                    Descricao = item.Id + " - " + item.Descricao
+                });
+            }
+            return areas;
         }
     }
 }

@@ -18,6 +18,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
             return View();
         }
 
+        [Route("areas")]
         public IActionResult ListarAreas()
         {
             var lista = areasService.Listar();
@@ -51,7 +52,8 @@ namespace ProjetoMyRh.AppWeb.Controllers
         }
 
         // Action para alterar a descrição de uma área
-        [HttpGet]
+        
+        [HttpGet("areas/modify/{id?}")]       
         public IActionResult AlterarArea(int id)
         {
             try
@@ -78,7 +80,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("areas/modify/{id?}")]
         public IActionResult AlterarArea(Area area)
         {
             try
@@ -98,7 +100,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
         }
 
         // Action para excluir uma área
-        [HttpGet]
+        [HttpGet("areas/remove/{id?}")]
         public IActionResult RemoverArea(int id)
         {
             try
@@ -122,7 +124,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("areas/remove/{id?}")]
         public IActionResult RemoverArea(Area area)
         {
             try

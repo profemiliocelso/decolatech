@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ProjetoMyRh.AppWeb.Models.Common;
 using ProjetoMyRh.AppWeb.Models.Entities;
 
 namespace ProjetoMyRh.AppWeb.Controllers
@@ -91,6 +92,13 @@ namespace ProjetoMyRh.AppWeb.Controllers
 
                 if (result.Succeeded)
                 {
+                    //Utils.USERNAME = userManager.GetUserName(User);
+                    Utils.UsuarioLogado!.IdUsuario = userManager.GetUserId(User);
+                    Utils.UsuarioLogado!.Usuario = userManager.GetUserName(User);
+
+                    // simulacao
+                    Utils.UsuarioLogado.NomeFuncionario = "Pedro Scooby";
+
                     if(returnUrl != null)
                     {
                         return Redirect(returnUrl);
@@ -106,6 +114,8 @@ namespace ProjetoMyRh.AppWeb.Controllers
         public async Task<IActionResult> Logout()
         {
             await signInManager.SignOutAsync();
+            //Utils.USERNAME = null;
+            Utils.UsuarioLogado!.IniciarPropriedades();
             return RedirectToAction("Index", "Home");
         }
 

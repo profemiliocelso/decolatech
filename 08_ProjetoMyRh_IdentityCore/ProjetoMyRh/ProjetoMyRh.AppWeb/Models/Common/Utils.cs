@@ -22,5 +22,9 @@ namespace ProjetoMyRh.AppWeb.Models.Common
                 }
             }
         }
+
+        public static string? USERNAME = null;
+
+        public static UsuarioLogado? UsuarioLogado { get; set; } = new UsuarioLogado();
     }
 }

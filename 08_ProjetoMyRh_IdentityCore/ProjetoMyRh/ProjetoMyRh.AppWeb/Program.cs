@@ -38,6 +38,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 // Habilitando os serviços AreasService e CargosService para injeção de dependência
 builder.Services.AddScoped<AreasService>();
 builder.Services.AddScoped<CargosService>();
+builder.Services.AddScoped<AutenticacaoService>();
 
 builder.Services.AddControllersWithViews();
 

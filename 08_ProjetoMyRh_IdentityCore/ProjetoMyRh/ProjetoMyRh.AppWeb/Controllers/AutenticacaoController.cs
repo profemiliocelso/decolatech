@@ -1,26 +1,18 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ProjetoMyRh.AppWeb.Models.Common;
 using ProjetoMyRh.AppWeb.Models.Entities;
+using ProjetoMyRh.AppWeb.Services;
 
 namespace ProjetoMyRh.AppWeb.Controllers
 {
     public class AutenticacaoController : Controller
     {
-        private readonly UserManager<IdentityUser> userManager;
-        private readonly SignInManager<IdentityUser> signInManager;
-        private readonly RoleManager<IdentityRole> roleManager;
+        private readonly AutenticacaoService authService;
 
-
-        public AutenticacaoController(
-            UserManager<IdentityUser> userManager, 
-            SignInManager<IdentityUser> signInManager,
-            RoleManager<IdentityRole> roleManager)
+        public AutenticacaoController(AutenticacaoService service)
         {
-            this.userManager = userManager;
-            this.signInManager = signInManager;
-            this.roleManager = roleManager;
+            this.authService = service;
         }
 
         public IActionResult Index()
@@ -31,46 +23,26 @@ namespace ProjetoMyRh.AppWeb.Controllers
         [HttpGet]
         public IActionResult Registrar()
         {
-            var roles = roleManager.Roles.ToList();
-            var listaRoles = roles.Select(p => p.Name).ToList();
-            ViewBag.Roles = new SelectList(listaRoles);
-
+            ViewBag.Roles = new SelectList(authService.ListRoles());
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Registrar(UsuarioViewModel model)
         {
-
             if(ModelState.IsValid)
             {
-                var user = new IdentityUser
+                var novo = await authService.CreateUser(model);   
+                if (novo.Success)
                 {
-                    UserName = model.Email,
-                    Email = model.Email
-                };
-                var result = await userManager.CreateAsync(user, model.Senha!);
-                if (result.Succeeded)
-                {
-                    if (!string.IsNullOrEmpty(model.Perfil))
-                    {
-                        var appRole = await roleManager.FindByNameAsync(model.Perfil);
-                        if (appRole != null)
-                        {
-                            await userManager.AddToRoleAsync(user, model.Perfil);
-                        }
-                    }
-
-
-                    await signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Home");
                 }
-                foreach (var error in result.Errors)
+                foreach (var error in novo.Errors!)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
-            return View(model);
+            return Registrar();
         }
 
         [HttpGet]
@@ -86,20 +58,11 @@ namespace ProjetoMyRh.AppWeb.Controllers
         {
             if(ModelState.IsValid)
             {
-                var result = await signInManager
-                    .PasswordSignInAsync(
-                        model.Email!, model.Senha!, model.RememberMe, false);
-
-                if (result.Succeeded)
+                if (await authService.LoginUser(model))
                 {
-                    //Utils.USERNAME = userManager.GetUserName(User);
-                    Utils.UsuarioLogado!.IdUsuario = userManager.GetUserId(User);
-                    Utils.UsuarioLogado!.Usuario = userManager.GetUserName(User);
+                    Utils.UsuarioLogado!.Usuario = User.Identity!.Name;
 
-                    // simulacao
-                    Utils.UsuarioLogado.NomeFuncionario = "Pedro Scooby";
-
-                    if(returnUrl != null)
+                    if (returnUrl != null)
                     {
                         return Redirect(returnUrl);
                     }
@@ -113,9 +76,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
         [HttpGet]
         public async Task<IActionResult> Logout()
         {
-            await signInManager.SignOutAsync();
-            //Utils.USERNAME = null;
-            Utils.UsuarioLogado!.IniciarPropriedades();
+            await authService.LogoutUser();
             return RedirectToAction("Index", "Home");
         }
 

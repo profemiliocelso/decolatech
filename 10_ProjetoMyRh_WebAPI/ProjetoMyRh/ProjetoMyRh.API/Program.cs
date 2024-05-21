@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetoMyRh.API.Models.Contexts;
 using ProjetoMyRh.API.Models.Startup;
+using ProjetoMyRh.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,8 @@ ConfigurationManager config = builder.Configuration;
 builder.Services.AddDbContext<MyRhContext>(options => 
     options.UseSqlServer(config.GetConnectionString("MyRhConnection")));
 
+builder.Services.AddScoped<AreasService>();
+builder.Services.AddScoped<CandidatosService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

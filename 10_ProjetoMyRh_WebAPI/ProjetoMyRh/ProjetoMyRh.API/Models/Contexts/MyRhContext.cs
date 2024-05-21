@@ -12,6 +12,7 @@ namespace ProjetoMyRh.API.Models.Contexts
         public DbSet<Inscricao> Inscricoes { get; set; }
         public DbSet<Candidato> Candidatos { get; set; }
 
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Mapeamento das entidades para as tabelas

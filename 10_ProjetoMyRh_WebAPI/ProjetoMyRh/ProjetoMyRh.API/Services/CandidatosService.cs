@@ -12,11 +12,22 @@ namespace ProjetoMyRh.API.Services
             this.CandidatosDao = new GenericDao<Candidato, string>(context);
         }
 
+        public IEnumerable<Candidato> Listar()
+        {
+            return CandidatosDao.Listar();
+        }
         public void Incluir(Candidato candidato)
         {
             CandidatosDao.Adicionar(candidato);
         }
-
+        public void Alterar(Candidato candidato)
+        {
+            CandidatosDao.Alterar(candidato);
+        }
+        public void Remover(Candidato candidato)
+        {
+            CandidatosDao.Remover(candidato);
+        }
         public Candidato? Buscar(string cpf)
         {
             return CandidatosDao.Buscar(cpf);

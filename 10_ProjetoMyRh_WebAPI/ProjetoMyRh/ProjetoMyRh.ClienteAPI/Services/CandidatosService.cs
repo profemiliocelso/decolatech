@@ -18,14 +18,14 @@ namespace ProjetoMyRh.ClienteAPI.Services
                 MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task<IEnumerable<Candidato>> ListarCandidatosAsync()
+        public async Task<IEnumerable<CandidatoClient>> ListarCandidatosAsync()
         {
             try
             {
                 var response = await httpClient.GetAsync("api/candidatosapi");
                 if(response.IsSuccessStatusCode)
                 {
-                    var lista = await response.Content.ReadFromJsonAsync<Candidato[]>();
+                    var lista = await response.Content.ReadFromJsonAsync<CandidatoClient[]>();
                     return lista!.ToList();
                 }
                 else
@@ -39,7 +39,7 @@ namespace ProjetoMyRh.ClienteAPI.Services
             }
         }
 
-        public async Task IncluirCandidatoAsync(Candidato candidato)
+        public async Task IncluirCandidatoAsync(CandidatoClient candidato)
         {
             try
             {

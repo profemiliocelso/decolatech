@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoMyRh.API.Models.Entities;
 using ProjetoMyRh.API.Services;
@@ -16,6 +17,7 @@ namespace ProjetoMyRh.API.Controllers
             this.candidatosService = candidatosService;
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult ListarCandidatos()
         {

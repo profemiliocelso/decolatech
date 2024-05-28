@@ -1,10 +1,17 @@
 ﻿using Newtonsoft.Json;
 using ProjetoMyRh.ClienteAPI.Models;
+using System.Net;
 using System.Net.Http.Headers;
 using System.Text;
 
 namespace ProjetoMyRh.ClienteAPI.Services
 {
+    public class TokenModel
+    {
+        public string? Token { get; set; }
+        public string? Expiration { get; set; }
+    }
+
     public class CandidatosService
     {
         private readonly HttpClient httpClient;
@@ -13,7 +20,7 @@ namespace ProjetoMyRh.ClienteAPI.Services
         {
             httpClient = client.CreateClient();
 
-            httpClient.BaseAddress = new Uri("http://localhost:5036/");
+            httpClient.BaseAddress = new Uri("http://localhost:5000/");
             httpClient.DefaultRequestHeaders.Accept.Add(new 
                 MediaTypeWithQualityHeaderValue("application/json"));
         }
@@ -22,6 +29,23 @@ namespace ProjetoMyRh.ClienteAPI.Services
         {
             try
             {
+                HttpResponseMessage respToken = await httpClient
+                    .PostAsync("api/auth/login", 
+                        new StringContent(JsonConvert.SerializeObject(
+                            new 
+                            {
+                                username = "admin@admin.com.br",
+                                password = "abc12345"
+                            }),Encoding.UTF8, "application/json"));
+
+                string resultado = await respToken.Content.ReadAsStringAsync();
+
+                if(respToken.StatusCode == HttpStatusCode.OK)
+                {
+                    TokenModel model = JsonConvert.DeserializeObject<TokenModel>(resultado)!;
+                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", model.Token);
+                }
+
                 var response = await httpClient.GetAsync("api/candidatosapi");
                 if(response.IsSuccessStatusCode)
                 {

@@ -85,5 +85,24 @@ namespace ProjetoMyRh.AppWeb.Controllers
                 return View("_Erro", e);
             }
         }
+
+        [HttpGet]
+        public IActionResult ListarCargosAjax(int idArea)
+        {
+            try
+            {
+                ViewBag.ListaDeAreas = new SelectList(areasService.Listar(), "Id", "Descricao");
+                if(idArea == 0)
+                {
+                    return View();
+                }
+                return PartialView("_ListagemCargos", cargosService.ListarCargosDTO(idArea));
+
+            }
+            catch (Exception e)
+            {
+                return View("_Erro", e);
+            }
+        }
     }
 }

@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "ListarCargosAjax";
+}
+
+<h1>ListarCargosAjax</h1>
+
+<p>
+    <form asp-action="ListarCargosAjax" asp-controller="Cargos" method="get">
+        <div class="mb-3">
+            <label class="form-label">Escolha a área</label>
+            <select id="idArea" name="idArea" class="form-select"
+                    asp-items="(SelectList)ViewBag.ListaDeAreas">
+                <option value="0">SELECIONAR</option>
+            </select>
+        </div>
+    </form>
+</p>
+
+<div id="resultado" class="mb-3">
+    <div class="alert alert-danger">Nenhuma área selecionada</div>
+</div>
+
+@section Scripts 
+{
+    <script>
+        // obtendo o componente select relativo ao idArea
+        let lista = document.getElementById("idArea");
+
+        // código para o evento change() do select obtido anteriormente
+        lista.addEventListener('change', function () {
+            let id = this.value;
+
+            if (id == 0) {
+                let erro = '<div class="alert alert-danger">Nenhuma área selecionada</div>';
+                document.getElementById("resultado").innerHTML = erro;
+            } else {
+                fetch('/Cargos/ListarCargosAjax?idArea=' + id)
+                    .then(res => res.text())
+                    .then(res => {
+                        document.getElementById("resultado").innerHTML = res;
+                    });
+            }
+        });
+    </script>
+}

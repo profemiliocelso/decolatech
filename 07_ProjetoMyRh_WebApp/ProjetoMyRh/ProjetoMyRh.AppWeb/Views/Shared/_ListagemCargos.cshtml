@@ -1,27 +1,5 @@
 ﻿@model IEnumerable<ProjetoMyRh.AppWeb.Models.DTO.CargoDTO>
 
-@{
-    ViewData["Title"] = "ListarCargosDTO";
-}
-
-<h1>Listar Cargos por Área (DTO)</h1>
-
-<p>
-    @using (Html.BeginForm("ListarCargosDTO", "Cargos", FormMethod.Get))
-    {
-        <div class="mb-3">
-            @Html.Label("cargo", "Escolha a área")
-            @Html.DropDownList(
-                     "idArea",
-                     (SelectList)ViewBag.ListaDeAreas,
-                     "TODOS", new { @class = "form-select" })
-        </div>
-        <div class="mb-3">
-            <input type="submit" value="Buscar" class="btn btn-primary" />
-        </div>
-    }
-</p>
-
 <table class="table">
     <thead>
         <tr>

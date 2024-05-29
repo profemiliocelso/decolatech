@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ProjetoMyRh.AppWeb.Models.DTO;
 using ProjetoMyRh.AppWeb.Models.Entities;
 using ProjetoMyRh.AppWeb.Services;
 
@@ -104,5 +105,14 @@ namespace ProjetoMyRh.AppWeb.Controllers
                 return View("_Erro", e);
             }
         }
+
+        [HttpPost]
+        public IActionResult Remover(int idCargo)
+        {
+            string urlAnterior = Request.Headers["Referer"].ToString();
+            cargosService.Remover(cargosService.Buscar(idCargo));
+            return Redirect(urlAnterior);
+        }
+
     }
 }

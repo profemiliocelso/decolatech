@@ -21,6 +21,16 @@ namespace ProjetoMyRh.AppWeb.Services
             CargosDao.Adicionar(cargo);
         }
 
+        public Cargo Buscar(int id)
+        {
+            return CargosDao.Buscar(id)!;
+        }
+
+        public void Remover(Cargo cargo)
+        {
+            CargosDao.Remover(cargo);
+        }
+
         public IEnumerable<Cargo> ListarCargos(int idArea)
         {
             if(idArea > 0)

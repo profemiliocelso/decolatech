@@ -64,11 +64,59 @@
                 @Html.DisplayFor(modelItem => item.TipoSalario)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                <button type="button" class="btn btn-danger remocao" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#modal"
+                    data-id="@item.Id"
+                    data-descricao="@item.DescricaoCargo">
+                    remover
+                </button>
+
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmação</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+            </div>
+            <form asp-action="Remover" asp-controller="Cargos" method="post">
+                <div class="modal-body">
+                    <h4 class="text-danger">
+                        Tem certeza que deseja este cargo:
+                        <div id="titulo" ></div>
+                    </h4>
+                </div>
+            
+                <div class="modal-footer">
+                    <input type="hidden" id="idCargo" name="idCargo" />
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                    <button type="submit" class="btn btn-primary">Sim, remover</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@* 
+<div class="modal" id="modal"></div> *@
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $(".remocao").click(function () {
+                var id = $(this).attr("data-id");
+                var cargo = $(this).attr("data-descricao")
+                
+                $(".modal-footer #idCargo").val(id);
+                $(".modal-body #titulo").html(cargo);
+            });
+        });
+    </script>
+}

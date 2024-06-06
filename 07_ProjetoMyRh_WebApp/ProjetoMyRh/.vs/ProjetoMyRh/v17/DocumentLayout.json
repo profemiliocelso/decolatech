@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|c:\\documentos\\projetos\\decolatech\\07_projetomyrh_webapp\\projetomyrh\\projetomyrh.appweb\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51768A4D-9114-4631-A6BB-9E8A32AFDDBA}|ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj|solutionrelative:projetomyrh.appweb\\controllers\\cargoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\appsettings.json",
+              "ToolTip": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\appsettings.json",
+              "RelativeToolTip": "ProjetoMyRh.AppWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T18:10:43.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ListarCargosAjax.cshtml",
               "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Cargos\\ListarCargosAjax.cshtml",
               "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\Cargos\\ListarCargosAjax.cshtml",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\Cargos\\ListarCargosAjax.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T16:42:39.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T16:42:39.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Remover.cshtml",
               "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Cargos\\Remover.cshtml",
               "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\Cargos\\Remover.cshtml",
@@ -59,12 +75,11 @@
               "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\Cargos\\Remover.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T16:23:29.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T16:23:29.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CargosService.cs",
               "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Services\\CargosService.cs",
               "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Services\\CargosService.cs",
@@ -72,12 +87,11 @@
               "RelativeToolTip": "ProjetoMyRh.AppWeb\\Services\\CargosService.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAA3wB4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T16:08:51.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T16:08:51.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CargosController.cs",
               "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Controllers\\CargosController.cs",
               "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Controllers\\CargosController.cs",
@@ -90,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ListarCargosDTO.cshtml",
               "DocumentMoniker": "C:\\Documentos\\Projetos\\DecolaTech\\07_ProjetoMyRh_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\Views\\Cargos\\ListarCargosDTO.cshtml",
               "RelativeDocumentMoniker": "ProjetoMyRh.AppWeb\\Views\\Cargos\\ListarCargosDTO.cshtml",
@@ -98,8 +112,7 @@
               "RelativeToolTip": "ProjetoMyRh.AppWeb\\Views\\Cargos\\ListarCargosDTO.cshtml",
               "ViewState": "AQIAAFEAAAAAAAAAAAAAAFgAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T16:06:03.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T16:06:03.616Z"
             }
           ]
         }
